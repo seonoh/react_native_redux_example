@@ -1,5 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
+import Count from './components/Count';
 
 const App = () => {
   return (
@@ -9,6 +10,8 @@ const App = () => {
       alignItems: 'center'
     }}>
       <Text>React Native Redux Example</Text>
+      <Count/>
+      
     </View>
   );
 };
